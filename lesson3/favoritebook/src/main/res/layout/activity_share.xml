@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле отображения: "Любимая книга разработчика" -->
+    <TextView
+        android:id="@+id/textViewBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Любимая книга разработчика"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Поле отображения: "Цитата из книги" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цитата из книги"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Поле ввода: Название книги -->
+    <EditText
+        android:id="@+id/editBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название Вашей любимой книги"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Поле ввода: Цитата -->
+    <EditText
+        android:id="@+id/editQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите цитату из Вашей любимой книги"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Кнопка отправки данных на первый экран -->
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить данные"/>
+</LinearLayout>
